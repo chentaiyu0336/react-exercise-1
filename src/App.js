@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
 import './App.scss';
+import Header from './components/Header';
+import Content from './components/Content';
 
 class App extends Component {
   render() {
-    return <main className="app">start here</main>;
+    return (
+      <main className="app">
+        <Header />
+        <Content />
+      </main>
+    );
   }
 }
 
